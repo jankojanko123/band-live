@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f16111b6-e515-422b-b28b-c6a03c9df7c8" name="band" url="http://68.183.71.242">
+        <fileTransfer host="68.183.71.242" port="22" privateKey="C:\Users\janju\Documents\bandAid\ssh-bandaid-privatekey.ppk" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

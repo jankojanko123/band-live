@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "liveconcerts",
+  "private_key_id": "72dd3731b2d8d7ba8625d3e4b94b7b0720bbc11a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC8I2/v/r0XdjqP\nhFn+Tkw2COuJ+Yu5QtILZrOtjx18EpjsCIr+IyahkW3rcNusgwxLZSLpUtS0zkVL\njcxso/RJvsyB/2YxfXYax6KArlqfp32ZDz3Ae30AC/WGPyGJwMjInff1os9oVOmn\nfBzxgc8aCbLz77rONdqMiDm/qSwfl0ei/rbFgWpNQryI/GmLaODqyJ0QLzRn+Lzi\nP3BUYuxBXJlOnzB/QdAGm4slxWK0tVt4qYWnksXAkb1ieKartx45rpimMuyLe/Yq\nwxvK1t1/6hJwc6mcWdRzNjUHU2qRHADlu0WO0aLrm7E/ec8YIpfAdySMpL1T+vBF\nlyEQZZbfAgMBAAECggEACj3k88FVVTf4G3n5VYZjpbQPRnU8Qvs9Pfuln7bLxHEA\nEXwBklt4LebMf2WnFRlpNkLXh1tyqDPBF/TXLQ7b10E4wYGVdETqhK4GIvqFhRge\nwTylgEX4rw5M8QryGMf9kNZF+lbrnY1fJDagc2aSpKM53Qeu5AI7LIKkn3y7zIMI\nJifkyutRAniwoeYTqLkDJl+L7j06jvtCc8ga3egUHev//EncDHnN104jz3GxzpZ6\neBObVHA+IqwW3HCnHRlxeAg3U8U6WGcckKTTQLxHMzFBJN3qiZoFPCXvKYBkE4GH\n254/2lQg6uGyKiBiP4n65ISKYgZRE8almNfVsE1ZMQKBgQDpK6EmJt3d+8059j8J\nb0Wxmc4eG9ivVeoCkk0uGTzxBwZaw2oRqULF72Lot6v6YEDuF6KK9sSZ7eWfKAC2\nJmVbiidecq4xldrgMkpC2JR4Qs6ISi3j1ZT88O/v8xIHcylyJsD1/09GQwuXxmKY\n3EZ6OtwInbXKf4V2EdqkP/1N6QKBgQDOjxbv7K1cHRlYMfZbb688qLvCfefpQArA\nBp62bSp58r2H+hS8B0FLgAJ5guuDh2eaVHbvx9JdE8lO6ZZGva3m1xyxPqYKXx//\n9YzHa/FQ+EkIT5+U360H3CwOiZudPxQ1cozlxnmvjzBsDXEeXmG9t2WoiKGpFRtH\nGdNQxS/ZhwKBgQC6L393QnPJLKacUNfXBcYF4cWnXx7wKs84DHCajcaOw8g8M2v/\n/EL4YIV/RCKMQ821EKRXCGLGcyL2qm+fAxvOM4vqK/KSX5GtkhqgM+ah/N6ED4+D\nLOnR6+X7mQFdd4SxxOYxyBMaDLE2GVBjtQiF03gdXSlrL9Z3CBypKPtv+QKBgQC4\nMAHtCWgAtnXuHgcmu61P8soSgQD2DcRIPN7znt58hYaaJNauX+3KbChIwARQccJh\nbKXt5Inhs44TjtkQ1XynVfPg3RNkNjSrogLZpJg3cl51ScLsFpQNaTfj8rLPgfr8\nOdwH3HaPpKgyAb53rQOND2dX5BX7VrXPLekvodWsKwKBgGEIFkmoZHV5RGY7Zo4/\nKXFZn73Tt1F0jscTmUqEIuB7i4kc0cHIryPGHx95YIL9REup7w1vmlY2B1fxv960\n8YvwlpZ9by6hRac2e1xp+AHb5Ymz2x7LexbylvFqwPB7gQGFZ0ZIWdDK3TA8EM6l\nmkSBb8KiPkOVv66HMW0VB6gR\n-----END PRIVATE KEY-----\n",
+  "client_email": "janmihevc@liveconcerts.iam.gserviceaccount.com",
+  "client_id": "114656610765900784722",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/janmihevc%40liveconcerts.iam.gserviceaccount.com"
+}
