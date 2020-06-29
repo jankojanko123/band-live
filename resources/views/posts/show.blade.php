@@ -97,7 +97,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="media">
-                        <!-- Load the Twitch embed script -->
+                        <!-- Load the Twitch embed script  -->
 
                         @if($post->service_name == 'twitch')
                             @include('media_players.twitch')
