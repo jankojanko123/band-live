@@ -19,7 +19,7 @@ class CreateArtistsTable extends Migration
             $table->timestamps();
         });
     }
-
+//
     /**
      * Reverse the migrations.
      *

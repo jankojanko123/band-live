@@ -74,7 +74,7 @@
     <!-- scripts -->
 
 
-    <div class="row pl-4 pt-2">
+    <div class="row pl-4 pt-2 h-100">
         <h1 style=" font-size: 27px ">{{$post->title}}</h1>
     @if(!\Illuminate\Support\Facades\Auth::guest()) <!-- if the user not a guest-->
     @if(\Illuminate\Support\Facades\Auth::user()->id == $post->user_id ) <!-- the user has to match the posts id-->
@@ -92,10 +92,10 @@
             </div>
         </div>
     </div>
-    <div class="container-all flex-center pl-3 pr-4 pb-5">
+    <div class="container-all flex-center pl-3 pr-4 pb-5 pt-4 ">
         <div class="backdrop-left">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 ">
                     <div class="media">
                         <!-- Load the Twitch embed script -->
 
@@ -116,7 +116,6 @@
                                 id="flip3"
                                 style="color: seashell">{{$post->sub_title}}</h6>
                         </div>
-
                     </div>
                     <div class="media-info-count-box-right pr-4 float-right flex-center">
                         <div class="flex-center pt-0" style="color: rgba(255,251,255,0.96);">
@@ -129,7 +128,6 @@
                                         </a>
                                         {{$post->views}}
                                     </h6>
-
                                 </div>
                             </div>
                         </div>

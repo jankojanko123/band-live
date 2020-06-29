@@ -71,7 +71,7 @@ class AutoPostsController extends Controller
         $post->band_camp_id = '';
         $post->soundcloud_id = '';
         $post->webpage = '';
-        $post->views = $item->viewer_count;
+        $post->views = $item->statistics->viewCount;
         $post->cover = $item->snippet->thumbnails->high->url;
         $post->save();
 
@@ -131,7 +131,7 @@ class AutoPostsController extends Controller
         $post-> fund_name = '';
         $post-> fund_text = '';
         //
-        var_dump(phpinfo());
+        //var_dump(phpinfo());
         $post->artist_name = $item->user_name;
         $post->apple_music = '';
         $post->spotify_id = '';
@@ -140,6 +140,7 @@ class AutoPostsController extends Controller
         $post->soundcloud_id = '';
         $post->webpage = '';
         $post->views = $item->viewer_count;
+
 
         $url = explode('-', $item->thumbnail_url);
         $post->cover = $url[0] . '-' . $url[1] . '-' . $url[2] . '.jpg';

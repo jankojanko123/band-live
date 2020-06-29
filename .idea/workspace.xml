@@ -2,52 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59279c98-4d3e-4d2c-83d4-acd98307a880" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AutoPostsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TvController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/YoutubeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/youtube.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2016_02_07_000000_create_likeable_tables.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_06_131328_add_donation_to_posts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_26_103100_create_channels_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_26_103126_create_artists_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_29_091441_add_views_to_posts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/svg/eye.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/api/twitchApi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/api/youtubeApi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/media_players/mixer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/media_players/youtubeTV.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/archive.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/tv.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lsapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lsapp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/welcome.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/welcome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/navbar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/media_players/twitch.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/media_players/twitch.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AutoPostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AutoPostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_06_26_103126_create_artists_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_06_26_103126_create_artists_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +228,7 @@
       <workItem from="1592732495468" duration="4532000" />
       <workItem from="1592903964705" duration="108000" />
       <workItem from="1593166687247" duration="2132000" />
-      <workItem from="1593416927151" duration="3343000" />
+      <workItem from="1593416927151" duration="5109000" />
     </task>
     <servers />
   </component>
@@ -348,15 +306,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1592232243105" />
-    <state x="806" y="190" key="run.anything.popup" timestamp="1592736844763">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="806" y="1272" key="run.anything.popup" timestamp="1593423630291">
+      <screen x="0" y="1080" width="1536" height="832" />
     </state>
     <state x="806" y="190" key="run.anything.popup/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1590691011217" />
     <state x="806" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1592736844763" />
-    <state x="570" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1593168172251">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="806" y="1272" key="run.anything.popup/0.1080.1536.832/0.0.1920.1040@0.1080.1536.832" timestamp="1593423630291" />
+    <state x="570" y="1218" width="672" height="685" key="search.everywhere.popup" timestamp="1593424676329">
+      <screen x="0" y="1080" width="1536" height="832" />
     </state>
     <state x="570" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1590692304241" />
     <state x="570" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593168172251" />
+    <state x="570" y="1218" width="672" height="685" key="search.everywhere.popup/0.1080.1536.832/0.0.1920.1040@0.1080.1536.832" timestamp="1593424676329" />
   </component>
 </project>
