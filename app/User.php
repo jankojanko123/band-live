@@ -37,7 +37,13 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    public function posts(){
+    public function posts()
+    {
         return $this->hasMany('App\Post'); //user can have manny posts
+    }
+
+    public function likes()
+    {
+        return $this->belongsToMany('App\Post', 'likes', 'user_id', 'post_id');
     }
 }

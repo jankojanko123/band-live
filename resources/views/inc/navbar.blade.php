@@ -15,7 +15,7 @@
                 <a class="nav-link" href="http://localhost/lsapp/public/about">about</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="http://localhost/lsapp/public/posts">concerts</a>
+                <a class="nav-link" href="http://localhost/lsapp/public/posts">live concerts</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>

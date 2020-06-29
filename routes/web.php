@@ -13,12 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'PagesController@index');
 
 Route::get('/about', 'PagesController@about');
-
+Route::get('/tv', 'TvController@index');
+Route::get('/archive', 'PagesController@archive');
 Route::get('/services', 'PagesController@services');
-
 Route::resource('posts', 'PostsController');
 
 //php artisan route:list
@@ -60,11 +59,18 @@ Route::resource('posts', 'PostsController');
 Auth::routes();
 
 Route::get('/dashboard', 'DashboardController@index');
-Route::get('/', 'DashboardController@index');
+Route::get('/', 'PostsController@index');
+
+Route::get('/add', 'AutoPostsController@getAllData');
+
 
 Route::get('space_invaders', function()
 {
     return view('hidden/space_invaders');
 });
+
+Route::get('post/{id}/islikedbyme', 'PostController@isLikedByMe');
+Route::post('post/like', 'PostController@like');
+
 
 

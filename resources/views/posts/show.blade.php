@@ -54,12 +54,12 @@
         });
     </script>
     <script>
-        $(document).ready(function () {
-            $("#panel2").click(function () {
-                $("#panel2").slideUp("slow");
-            });
-        });
-    </script>
+        //    $(document).ready(function () {
+        //        $("#panel2").click(function () {
+        //            $("#panel2").slideUp("slow");
+        //        });
+        //    });
+        //</script>
     <script>
 
         $(document).ready(function () {
@@ -74,8 +74,8 @@
     <!-- scripts -->
 
 
-    <div class="row pl-4">
-        <h1>{{$post->title}}</h1>
+    <div class="row pl-4 pt-2">
+        <h1 style=" font-size: 27px ">{{$post->title}}</h1>
     @if(!\Illuminate\Support\Facades\Auth::guest()) <!-- if the user not a guest-->
     @if(\Illuminate\Support\Facades\Auth::user()->id == $post->user_id ) <!-- the user has to match the posts id-->
         <div class="row float-right pl-5 pb-1">
@@ -92,7 +92,7 @@
             </div>
         </div>
     </div>
-    <div class="container-all flex-center pl-3 pr-4">
+    <div class="container-all flex-center pl-3 pr-4 pb-5">
         <div class="backdrop-left">
             <div class="row">
                 <div class="col-12">
@@ -101,11 +101,8 @@
 
                         @if($post->service_name == 'twitch')
                             @include('media_players.twitch')
-
                         @elseif($post->service_name == 'youtube')
-
                             @include('media_players.youtube')
-
                         @endif
                     </div>
                 </div>
@@ -115,20 +112,24 @@
                 <div class="col-12">
                     <div class="media-info-title-box-left pl-4 float-left flex-center">
                         <div class="media-info-title-box">
-                            <h6 class="media-info-title pt-2 pl-3 pr-3"
+                            <h6 class="media-info-title pb-2 pt-2 pl-3 pr-3"
                                 id="flip3"
                                 style="color: seashell">{{$post->sub_title}}</h6>
                         </div>
 
                     </div>
-                    <a class="secret" href="https://youtu.be/zUnVLELDzzI?t=15"> a secret egg</a>
                     <div class="media-info-count-box-right pr-4 float-right flex-center">
                         <div class="flex-center pt-0" style="color: rgba(255,251,255,0.96);">
                             <div class="media-info-count-box">
                                 <div>
                                     <h6 class="media-info-count pt-2 pl-2 pr-2"
-                                        style="color: seashell">123
-                                        viewers</h6>
+                                        style="color: seashell">
+                                        <a class="secret" href="https://youtu.be/zUnVLELDzzI?t=15">
+                                            <img src="../svg/eye.svg" class="logoeye pr-1">
+                                        </a>
+                                        {{$post->views}}
+                                    </h6>
+
                                 </div>
                             </div>
                         </div>
@@ -179,19 +180,19 @@
                             </div>
                             <div class="pt-0 " id="panel2">
                                 <div class="align-items-center">
-                                    <a href="https://www.twitch.tv/videos/604037253"
+                                    <a href="{{$post->spotify_id}}"
                                        class="fa fa-spotify"></a>
-                                    <a href="https://www.twitch.tv/videos/604037253"
+                                    <a href="{{$post->apple_music}}"
                                        class="fa fa-apple"></a>
-                                    <a href="https://www.twitch.tv/videos/604037253"
+                                    <a href="{{$post->youtube_id}}"
                                        class="fa fa-youtube"></a>
-                                    <a href="https://www.twitch.tv/videos/604037253"
+                                    <a href="{{$post->webpage}}"
                                        class="fa fa-instagram"></a>
-                                    <a href="https://www.twitch.tv/videos/604037253"
+                                    <a href="{{$post->soundcloud_id}}"
                                        class="fa fa-soundcloud"></a>
-                                    <a href="https://www.twitch.tv/videos/604037253"
+                                    <a href="{{$post->bandcamp_id}}"
                                        class="fa fa-bandcamp"></a>
-                                    <a href="https://www.twitch.tv/videos/604037253"
+                                    <a href="{{$post->webpage}}"
                                        class="fa fa-external-link-square"></a>
                                 </div>
 

@@ -11,6 +11,8 @@ class Post extends Model
 
     public  $primaryKey = 'id';
 
+    //public  $attributes = 'id'; //somehow broke everything
+
     public  $timestamps = 'true';
 
     public function user()

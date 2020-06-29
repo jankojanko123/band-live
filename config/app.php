@@ -162,6 +162,8 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
+        Alaouy\Youtube\YoutubeServiceProvider::class,
+
 
         /*
          * Package Service Providers...
@@ -229,6 +231,9 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
+        //'Youtube' => Alaouy\Youtube\Facades\Youtube::class,
+        'Youtube' => Alaouy\Youtube\Youtube::class,
+
 
     ],
 

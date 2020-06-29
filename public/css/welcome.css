@@ -1,6 +1,6 @@
 
 html, body {
-    color: #c1cace;
+    color: #ffffff;
     font-family: 'Nunito', sans-serif;
 
     height: 100vh;
@@ -102,45 +102,45 @@ html, body {
 }
 
 .fa-facebook {
-    background: #3B5998;
+    background: #2c2c2c;
     color: white;
     opacity: 0.8;
 }
 
 .fa-youtube {
-    background: #bb0000;
+    background: #2c2c2c;
     color: white;
     opacity: 0.8;
 }
 
 .fa-instagram {
-    background: #125688;
+    background: #2c2c2c;
     color: white;
     opacity: 0.8;
 }
 
 .fa-soundcloud {
-    background: #ff5500;
+    background: #2c2c2c;
     color: white;
     opacity: 0.8;
 }
 
 .fa-spotify {
-    background: #25c033;
+    background: #2c2c2c;
     color: white;
     opacity: 0.8;
 }
 
 .fa-apple {
-    background: #efebef;
+    background: #2c2c2c;
     color: rgba(0, 0, 0, 0.61);
     opacity: 0.8;
 
 }
 
 .fa-bandcamp {
-    background: #efebef;
-    color: #125688;
+    background: #2c2c2c;
+    color: #c1cace;
     opacity: 0.8;
 }
 
@@ -193,6 +193,20 @@ html, body {
     to {
         box-shadow: 0 0 0 15px rgba(232, 76, 61, 0);
     }
+}
+
+@keyframes border-pulsate {
+    0% {
+        border-color: rgba(0, 255, 255, 0);
+    }
+    100% {
+        border-color: rgba(0, 255, 255, 0);
+    }
+}
+.img-wrap {
+    display: block;
+    border: 2px solid rgba(0, 255, 255, 0);
+    animation: border-pulsate 3s ease-out;
 }
 
 
@@ -457,6 +471,11 @@ html, body {
     -webkit-filter: invert(1);
     filter: invert(1);
 }
+.logoeye {
+    width: 20px;
+    height: 20px;
+    color: #ff0010;
+}
 
 .container-all-left {
     width: 100%;
@@ -492,7 +511,7 @@ html, body {
     background: rgba(48, 48, 48, 0.56);
 }
 
-.secret{
+.secret {
     font-size: 0px;
 }
 
@@ -524,13 +543,13 @@ html, body {
     padding-left: 2%;
     margin-right: auto;
     margin-left: auto;
-   display: flex;
+    display: flex;
 }
 
 .backdrop-right {
     box-shadow: 10px 10px 5px #000000;
     /**/
-    height: 610px;
+    height: 425px;
     width: 440px;
     background: rgba(9, 9, 9, 0.82);
 }
@@ -613,6 +632,7 @@ html, body {
     background-color: rgba(255, 255, 255, 0);
     padding: 1px;
 }
+
 .grid-item {
     background-color: rgba(255, 255, 255, 0);
     border: 1px solid rgba(0, 0, 0, 0);
@@ -624,7 +644,7 @@ html, body {
 }
 
 
-.index-cover-images{
+.index-cover-images {
     height: 400px;
     width: 400px;
     overflow: hidden;
@@ -632,7 +652,8 @@ html, body {
     background-color: transparent;
     object-fit: cover;
 }
-.dash-cover-images{
+
+.dash-cover-images {
     height: 90px;
     width: 90px;
     overflow: hidden;
@@ -641,9 +662,11 @@ html, body {
     object-fit: cover;
 
 }
-.index-links{
+
+.index-links {
     color: #ffffff;
 }
+
 .img-wrap ul {
     padding: 0;
 }
@@ -660,7 +683,7 @@ html, body {
     top: 50%;
     transform: translate(-50%, -50%);
     left: 50%;
-    width:auto;
+    width: auto;
 }
 
 .img-wrap li .img-description h2 {
@@ -927,6 +950,7 @@ html, body {
         background-color: rgba(255, 255, 255, 0);
         padding: 1px;
     }
+
     .grid-item {
         background-color: rgba(255, 255, 255, 0);
         border: 1px solid rgba(0, 0, 0, 0);
@@ -947,7 +971,7 @@ html, body {
         }
 
         .media-info-title-box-left {
-            width: 93% ;
+            width: 93%;
         }
 
         .media-info-title-box {
@@ -971,15 +995,18 @@ html, body {
             width: 100%;
             background: rgba(48, 48, 48, 0.56);
         }
+
         .media-info-count {
             font-size: 1px;
             padding-right: 100px;
         }
-        .secret{
+
+        .secret {
             font-size: 8px;
             color: rgba(10, 10, 10, 0.82);
             text-decoration: none;
         }
+
         .secret:hover {
             font-size: 8px;
             color: rgba(77, 77, 77, 0.82);
@@ -997,7 +1024,7 @@ html, body {
     @media (max-width: 350px) {
 
         .media-info-title-box-left {
-            width: 93% ;
+            width: 93%;
         }
 
         .media-info-title-box {
@@ -1019,7 +1046,8 @@ html, body {
         .media-info-count-box {
             display: none;
         }
-        .secret{
+
+        .secret {
             display: none;
         }
 

@@ -2,11 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Like;
 use Illuminate\Http\Request;
 
 //use model
 use App\Post;
 use App\User;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
 
 class PostsController extends Controller
@@ -35,7 +37,7 @@ class PostsController extends Controller
 
         //$posts = DB::select('SELECT * FROM posts'); u can do it like that too
 
-        $posts = Post::orderBy('created_at', 'desc')->paginate(10); //makes pagebar possible
+        $posts = Post::orderBy('created_at', 'desc')->paginate(51); //makes pagebar possible
 
 
         return view('posts.index')->with('posts', $posts);
@@ -59,24 +61,6 @@ class PostsController extends Controller
      */
     public function store(Request $request)
     {
-        $this->validate($request, [
-            'title' => 'required',
-            'body' => 'required|max:255',
-            'media_id' => 'required',
-            'sub_title' => 'required',
-            'service_name' => 'required',
-            //
-            'artist_name' => 'required|max:255',
-            'apple_music' => 'max:255',
-            'spotify_id' => 'max:255',
-            'youtube_id' => 'max:255',
-            'band_camp_id' => 'max:255',
-            'soundcloud_id' => 'max:255',
-            'webpage' => 'max:255',
-            'cover' => 'max:1255',
-        ]);
-
-
         //create post
         $post = new Post;
         $post->title = $request->input('title'); //saves into $post everything that is subbmitted to the form
@@ -84,7 +68,13 @@ class PostsController extends Controller
         $post->media_id = $request->input('media_id');
         $post->sub_title = $request->input('sub_title');
         $post->service_name = $request->input('service_name');
-        //
+        //donation
+        $post-> show = 1;
+        $post-> donately_url = '';
+        $post-> fund_url = '';
+        $post-> fund_name = '';
+        $post-> fund_text = '';
+        //artist
         $post->artist_name = $request->input('artist_name');
         $post->apple_music = $request->input('apple_music');
         $post->spotify_id = $request->input('spotify_id');
@@ -143,7 +133,7 @@ class PostsController extends Controller
     {
         $this->validate($request, [
             'title' => 'required',
-            'body' => 'required|max:255',
+            'body' => 'required|max:380',
             'media_id' => 'required',
             'sub_title' => 'required',
             'service_name' => 'required',
@@ -164,8 +154,13 @@ class PostsController extends Controller
         $post->media_id = $request->input('media_id');
         $post->sub_title = $request->input('sub_title');
         $post->service_name = $request->input('service_name');
-        //
-        //
+        //donation
+        $post-> show = 1;
+        $post-> donately_url = '';
+        $post-> fund_url = '';
+        $post-> fund_name = '';
+        $post-> fund_text = '';
+        //artist
         $post->artist_name = $request->input('artist_name');
         $post->apple_music = $request->input('apple_music');
         $post->spotify_id = $request->input('spotify_id');

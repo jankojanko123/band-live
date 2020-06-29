@@ -16,7 +16,10 @@
         "laravel/framework": "^7.0",
         "laravel/tinker": "^2.0",
         "laravel/ui": "^2.0",
-        "laravelcollective/html": "^6.1"
+        "laravelcollective/html": "^6.1",
+        "madcoda/php-youtube-api": "^1.2",
+        "nicklaw5/twitch-api-php": "^2.1",
+        "rtconner/laravel-likeable": "~1.2"
     },
     "require-dev": {
         "facade/ignition": "^2.0",

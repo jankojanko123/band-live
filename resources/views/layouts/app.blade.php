@@ -24,9 +24,9 @@
 <body>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light shadow-sm">
-            <div class="container">
+            <div class="container pl-2">
                 <a class="navbar-brand pl-1" href="{{ url('/posts') }}">
-                    <img src="svg/freecodecamp.svg" class="logo pr-1">
+                    <img src="../svg/freecodecamp.svg" class="logo pr-1">
                     {{ config('app.name', 'bandLive') }}
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -39,16 +39,28 @@
                     </ul>
                     <ul class="nav navbar-nav navbar-left active">
                         <li class="nav-item">
-                            <a class="nav-link" href="/posts">concerts</a>
+                            <a class="nav-link" href="/posts">live concerts</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/archive">archive</a>
+                        </li>
+
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li class="nav-item">
                             <a class="nav-link" href="/posts/create">create</a>
                         </li>
+                    @if(!\Illuminate\Support\Facades\Auth::guest()) <!-- if the user not a guest-->
                         <li class="nav-item ">
                             <a class="nav-link" href="/">dashboard <span class="sr-only">(current)</span></a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/add">add</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/tv">tv</a>
+                        </li>
+                    @endif
                         <li class="nav-item">
                             <a class="nav-link" href="/about">about</a>
                         </li>
@@ -59,11 +71,11 @@
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('login') }}</a>
                             </li>
                             @if (Route::has('register'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                    <a class="nav-link" href="{{ route('register') }}">{{ __('register') }}</a>
                                 </li>
                             @endif
                         @else
@@ -92,7 +104,7 @@
         </nav>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <main class="py-4">
+        <main class="py-0">
             @include('inc.messages')
             @yield('content')
         </main>
